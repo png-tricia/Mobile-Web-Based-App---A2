@@ -1,0 +1,53 @@
+{
+	"a2Personal": {
+		"myFullName": "Patricia Jolly Gariando",
+		"sheridanID": 991446494,
+		"sheridanLogin": "gariandp",
+		"sheridanProgram": "Computer Programming",
+		"sheridanEmail": "gariandp@sheridancollege.ca"
+	},
+	"myBooks": [
+		{
+			"authorName": "Herman Hesse",
+			"bookTitle": "Siddhartha",
+			"published": 1922
+		},
+		{
+			"authorName": "Frankz Kafka",
+			"bookTitle": "Metamorphosis",
+			"published": 1915
+		},
+		{
+			"authorName": "Osamu Dazai",
+			"bookTitle": "No Longer Human",
+			"published": 1948
+		},
+		{
+			"authorName": "John Steinbeck",
+			"bookTitle": "Of Mice and Men",
+			"published": 1937
+		},
+		{
+			"authorName": "Toshikazu Kawaguchi",
+			"bookTitle": "Before The Coffee Gets Cold",
+			"published": 2015
+		}
+	],
+	"campusData": [
+		{
+			"campus": "Davis",
+			"street": "7899 McLaughlin Blvd",
+			"city": "Brampton"
+		},
+		{
+			"campus": "HMC",
+			"street": "4180 Duke of York Blvd",
+			"city": "Mississauga"
+		},
+		{
+			"campus": "Trafalgar",
+			"street": "1430 Trafalgar Road",
+			"city": "Oakville"
+		}
+	]
+}

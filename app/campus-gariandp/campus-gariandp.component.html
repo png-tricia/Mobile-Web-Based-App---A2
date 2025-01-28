@@ -1,0 +1,18 @@
+<h3>Sheridan College - Select a Campus to View Address</h3>
+
+<mat-form-field>
+    <mat-label>Campuses</mat-label>
+    <mat-select id="campus" name="campus" [(value)]="campus" (selectionChange)="buildArray(campus)">
+        <mat-option *ngFor="let x of campusData991446494" value="{{x.campus}}">{{x.campus}}</mat-option>
+    </mat-select>
+</mat-form-field>
+
+<br><br>
+
+<mat-list class="list">
+    <mat-list-item *ngFor="let x of campusArray">
+        <span matListItemLine>{{x.campus | uppercase}}</span>
+        <span matListItemLine>{{x.street | uppercase}}</span>
+        <span matListItemLine>{{x.city | uppercase}}</span>
+    </mat-list-item>
+</mat-list>

@@ -1,0 +1,20 @@
+<app-header-gariandp [gariandpMyData]='gariandpPersonal'></app-header-gariandp>
+
+<mat-tab-group mat-stretch-tabs class="example-stretched-tabs mat-elevation-z4" [ngStyle]="{textAlign: 'center'}">
+    <mat-tab>
+        <ng-template mat-tab-label>
+            My Book List - Patricia Gariando 
+            <span class="material-icons">book</span>
+        </ng-template>
+        <app-books-gariandp [myBooks991446494]='gariandpBooks'></app-books-gariandp>
+    </mat-tab>
+    <mat-tab>
+        <ng-template mat-tab-label>
+            Campus Info - Patricia Gariando 
+            <span class="material-icons">school</span>
+        </ng-template>
+        <app-campus-gariandp [campusData991446494]='gariandpCampus'></app-campus-gariandp>
+    </mat-tab>
+</mat-tab-group>
+
+<app-footer-gariandp [gariandpMyData]='gariandpPersonal'></app-footer-gariandp>
